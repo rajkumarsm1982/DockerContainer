@@ -1,4 +1,4 @@
-package com.selenium.practise;
+package com.selenium.practice;
 import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 import java.net.URI;
