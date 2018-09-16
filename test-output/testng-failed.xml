@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Docker Parallel Suite]" parallel="tests">
+  <test thread-count="5" name="Firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.selenium.practise.DcokerMultiLevelDropdown">
+        <methods>
+          <include name="multiLevelDropDown"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.selenium.practise.DcokerMultiLevelDropdown -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Docker Parallel Suite] -->
